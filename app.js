@@ -140,6 +140,6 @@ app.get("/blogs",function(req,res){
    
 });
 
-app.listen(8000,function(){
+app.listen(process.env.PORT,process.env.IP,function(){
     console.log("server is listening");
 });
