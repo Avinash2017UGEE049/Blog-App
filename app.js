@@ -140,6 +140,6 @@ app.get("/blogs",function(req,res){
    
 });
 
-app.listen(3306,function(){
+app.listen(8000,function(){
     console.log("server is listening");
 });
